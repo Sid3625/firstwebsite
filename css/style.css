@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../sid.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+ul li.active a{
+    background-color: aliceblue;
+    color: black;
+
+}
+.logo img{
+   
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+
+}  
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: antiquewhite;
+    font: size 70px; 
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none ;
+    transition:0.6s ease ;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.Search{
+    width: 330px;
+    float: left;
+    margin-left: 750px;
+}
+.search{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blanchedalmond;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid blanchedalmond;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+     
+}
+.btn:focus{
+    outline: none;
+}
+.search:focus{
+    outline: none;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.767)50%,rgba(0,0,0,0.767)50%);
+    position: absolute;
+    top: 200px;
+    left:1100px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: cursive;
+    text-align: center;
+    color: rgb(17, 18, 19);
+    font-size: 22px;
+    background-color: rgb(212, 225, 245);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid skyblue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: skyblue;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+      
+}
+.btnn:hover{
+    background: #fff;
+    color: skyblue;
+}
+.btnn a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-weight: bold;
+
+}
+.form.link{
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(95, 6, 6);
+}
+.link {
+    text-decoration: none;
+    /*color: rgb(153, 150, 187);*/
+    color: rgb(247, 229, 229);
+
+
+}
+.link:hover{
+    color: red;
+}
+.man {
+    text-decoration: none;
+    /*color: rgb(153, 150, 187);*/
+    color: rgb(247, 229, 229);
+}
+.man:hover{
+    color: red;
+}
+
+.log{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+    
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 15px;
+   
+   
+    padding-top: 5px;
+    transition: 0.6s ease;
+}
+.icons{
+    display: flex;
+   
+}
+.icons ion-icon:hover{
+    color: rgb(22, 84, 155);
+}
